@@ -99,7 +99,7 @@ This is a project I did for my responsive product landing page, utilizing GitHub
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]( https://sharminkhan0.github.io/My-Portfolio/)
+- [Live Demo Link]( https://sharminkhan0.github.io/Product-LandingPage/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
