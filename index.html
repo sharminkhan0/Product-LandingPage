@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="resources/paifang2.png">
+    <script src="https://kit.fontawesome.com/8c1870b6fa.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Product landingPage</title>
+</head>
+
+<body>
+    <header>
+    <div class="bgContainer">
+        <video id="background" muted autoplay loop> 
+            <source src="./resources/videos/Hand-print-bedcover.mp4" type="video/mp4"></src>
+        </video>
+
+        <audio id="bgMusic" class="bgm" src="./resources/audio/birds-singing-in-and-leaves-rustling-with-the-wind-14557.mp3" loop></audio>
+    </div>
+
+    <div class="headerBar">
+        <div class="leftBarContainer">
+            <a class="logoContainer" href=".">
+                <div class="logoImageContainer">
+                    <img class="logoImage" src="./resources/logo/bdlifestyle-1.png">
+                </div>
+                <div class="logoBdLifestyles">
+                    BdLifestyles
+                </div>
+            </a>
+            <div class="cartContainer">
+                <a class="shopping-cart" href="#"><i class="fa-brands fa-opencart"></i></a>
+            </div>
+            <img id="audioController" src="./resources/images/audioControllerOn.png" onclick = "audioController(); imageChange();">
+        </div>
+        <div class="sourcesContainer">
+            <button class="link" onclick ="showOrHide()">Home Decor</button>
+            
+        </div>
+        <div class="rightBarContainer">
+            <div class="rightBarStuff">
+                <a class="about hamburgerStuff" href="#about">About</a>
+                <img class="separator hamburgerStuff" src="./resources/images/Glowing_Circle.png">
+                <a class="characters hamburgerStuff" href="#hand-printed">Hand-painted</a>
+                <img class="separator hamburgerStuff" src="./resources/images/Glowing_Circle.png">
+                <a class="music hamburgerStuff" href="#living">Living</a>
+                <img class="separator hamburgerStuff" src="./resources/images/Glowing_Circle.png">
+                <a class="contact hamburgerStuff" href="#contact">Contact</a>
+            </div>
+            <div class="menuHamburger"><div class="menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+</header>
+<section class="about" id="about" href="#about">    
+    <div class="layer1">
+        <div class="layer1BgSources"><a class="layer1BgSource1" href="#" target = "_blank"></a><br><a class = "layer1BgSource2" href = "#" target = "_blank">
+            <div class ="donateNowContainer">
+                <a class="donateNow" href="https://fb.watch/melDoBaEIa/">Add to Cart!</a>
+            </div>
+        </a></div>
+        <div class="layer1Container">
+            <div class="layer1Left">
+                <div class="greetings">
+                    Welcome to the BdLifestyles Hand-painted Bedcover
+                </div>
+                <div class="description">
+                    <p>A hand-painted bed cover is a one-of-a-kind, stunning work of art 
+                        that gives your bedroom's decor a touch of class and individuality. 
+                        Each bed cover is a one-of-a-kind masterpiece made by professional 
+                        artisans using conventional painting techniques.
+                        <br>
+                        <br>
+                        Because it is made of high-quality fabrics, the bed cover not only 
+                        looks gorgeous but also feels opulent and cozy on your skin. Your 
+                        bed becomes the center of attention in the room right away thanks 
+                        to the harmonious combination of colors and textures.
+                        <br>
+                        <br>
+                        A hand-painted bed cover enables you to showcase your unique sense 
+                        of style and taste, whether you choose a vivid and assertive statement 
+                        or a quiet and relaxing atmosphere. When not in use, it doubles as an 
+                        eye-catching piece of wall art and a useful bedding item, bringing 
+                        beauty and personality into your home.
+                        <br>
+                        <br>
+                        By spending money on a hand-painted bed cover, you elevate your bedroom 
+                        into a haven of beauty and tranquillity, adding a touch of creative 
+                        brilliance and originality to your house.
+                        </p>
+
+                </div>
+                <div class ="donateNowContainer">
+                    <a class="donateNow" href="https://fb.watch/melDoBaEIa/">Learn more!</a>
+                </div>
+            </div>
+            <div class="layer1Right">
+                <img class="layer1Image" src="./resources/hand-painted-bedcovers/Hand-Painted-19.jpg">
+                <div class="layer1Caption">
+                    Hand-painted Bedcover'
+                </div>
+                <a class="layer1Source" href="https://www.facebook.com/bdlifestyl" target = "_blank">Products: BdLifestyles</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--An ethnic appeal
+Tour Home Decor 
+Shop promptly.-->
+<section class="hand-printed" id="hand-printed" herf="#hand-printed"></section>
+    <div class = "layer2">
+        <div class = "layer2Bg">
+            <div class = "layer2Content">
+                <div class = "layer2Heading">
+                    Embrace artistic expression in your bedroom with "Handcrafted Dreams, Painted with Love" ...
+                </div>
+                <div class = "layer2InfoContainer">
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-1.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 2,747.62</div>
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.pixiv.net/en/users/132450"><img class = "fanartImage" src ="./resources/hand-painted-bedcovers/Hand-Painted-2.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 3,457.72</div>
+                        <!--<div class = "fanartSource">by syuri22 (https://www.pixiv.net/en/users/132450)</div>-->
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-3.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 2,867.82</div>
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-4.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 2,967.82</div>
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-9.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 2,850.82</div>
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-8.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 2,597.82</div>
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.pixiv.net/en/users/132450"><img class = "fanartImage" src ="./resources/hand-painted-bedcovers/Hand-Painted-12.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 2,567.82</div>
+                        <!--<div class = "fanartSource">by syuri22 (https://www.pixiv.net/en/users/132450)</div>-->
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-13.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 3,167.82</div>
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-21.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 2,667.82</div>
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-18.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 3,567.82</div>
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-20.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 3,367.82</div>
+                    </div>
+                    <div class = "pro-shelfContainer">
+                        <a class = "linkI" href = "https://www.youtube.com/watch?v=Eyc_FkCVxT0"><img class = "gameImage" src = "./resources/hand-painted-bedcovers/Hand-Painted-7.jpg"></a>
+                        <div class = "proSubtext">White Hand Painted Cotton Bed Cover
+                            Tk 2,797.82</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer3">
+        <a class="layer3BgSource" href = "#" target = "_blank">An ethnic appeal
+            Tour Home Decor</a>
+        <div class = "layer3Text">
+            <div class = "layer3Quote">
+                "The hand-painted bedcovers are "Unleash the Art of Slumber: Where Comfort Meets Creativity."
+            </div>
+            <div class = "layer3QuoteFrom">
+                Those that enjoy home decoration
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer4">
+        <div class = "layer4Bg">
+            <div class = "layer4Content">
+                <div class = "layer4Text">
+                    <div class = "layer4TextHeading">
+                        "Hand-Painted Bedcovers, A Canvas of Dreams."
+                    </div>
+                    <div class = "layer4TextSubtext">
+                        "Every purchase may unlock bliss - it's where shopping satisfaction meets!"
+                    </div>
+                </div>
+                <div class = "layer4ContactContainer">
+                    <a class = "layer4Contact" href = "#">
+                        Contact!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "footerLayer">
+        <div class = "footerLayerBg">
+            <a class = "footerLayerAuthor" href = "https://github.com/sharminkhan0" target = "_blank">
+                Webpage by: Sharmin Khan
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<script src = "index.js"></script>
+</html>
