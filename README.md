@@ -68,6 +68,8 @@ For more information on the importance of a professional README for your reposit
 
 This is a project I did for my responsive product landing page, utilizing GitHub flow professionally to work with HTML, CSS, and JAVASCRIPT, responsive design using Flexbox, a simple structure, and a data query.
 
+<img src="./resources/landing-page-cover.png" alt="cover" />
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
