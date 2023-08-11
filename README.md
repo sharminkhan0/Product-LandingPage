@@ -30,7 +30,7 @@ For more information on the importance of a professional README for your reposit
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="bdlifestyles-1.png" alt="logo" width="140"  height="auto" />
+  <img src="bdlifestyle-1.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b> README.md</b></h3>
